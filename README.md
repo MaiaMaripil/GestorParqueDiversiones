@@ -3,6 +3,11 @@ Este proyecto consiste en una simulación concurrente de un parque de diversione
 En el sistema interactúan distintos hilos que representan visitantes, encargados y un reloj que controla el horario del parque.
 Los visitantes pueden realizar distintas actividades dentro del parque como montaña rusa, realidad virtual, área de premios, comedor y teatro, respetando las restricciones de cada atracción mediante mecanismos de sincronización.
 
+# Tecnologías y Conceptos aplicados
+- **Lenguaje:** Java
+- **Programación Concurrente:** Hilos ('Threads'), Sincronizacion, Semaforos, Monitores, Locks.
+- **Prevención de conflictos:** Control de condiciones de carrera (*Race Conditions*) y prevencion de interbloqueos (*Deadlocks*).  
+
 # Requisitos
 Para ejecutar el programa se necesita:
 -Java JDK 21 o superior
